@@ -48,7 +48,7 @@ let userQuestion = function  (question, iter) {
           }
         }
       } else {
-        userQuestion('Введи число! Осталось попыток: ' + iteration, iteration - 1)
+        userQuestion('Введи число! Осталось попыток: ' + iteration, iteration)
       }
     }
 
